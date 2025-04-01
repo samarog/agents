@@ -1,0 +1,61 @@
+#chatbase-bubble-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 80px !important;
+  right: 20px;
+  animation: pulsar 2.5s ease-in-out 0.8s 3 normal forwards;
+}
+
+#chatbase-bubble-window {
+  position: fixed;
+  bottom: 140px !important;
+  right: 20px !important;
+}
+
+#chatbase-message-bubbles {
+  bottom: 100px !important;
+  right: 80px !important;
+}
+
+@keyframes pulsar {
+0% {
+animation-timing-function: ease-out;
+transform: scale(1);
+transform-origin: center center;
+opacity: 0.4;
+}
+
+10% {
+animation-timing-function: ease-in;
+transform: scale(0.91);
+}
+
+17% {
+animation-timing-function: ease-out;
+transform: scale(0.98);
+}
+
+33% {
+animation-timing-function: ease-in;
+transform: scale(0.87);
+}
+
+45% {
+animation-timing-function: ease-out;
+transform: scale(1);
+}
+}
+
+@media (max-width: 640px) {
+    #chatbase-bubble-window {
+      position: fixed;
+      height: 100% !important;
+      width: 100% !important;
+      left: 0px !important;
+}
+}
