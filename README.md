@@ -1,2 +1,2 @@
-# comercial
-Comercial projects developed for client companies
+# Real-case projects
+Commercial projects developed for client companies
