@@ -19,7 +19,7 @@
     const onLoad = function() {
         const script = document.createElement("script");
         script.src = "https://www.chatbase.co/embed.min.js";
-        script.id = "W7i1k6d33cZLDH263ZBdP";
+        script.id = "***";
         script.domain = "www.chatbase.co";
         document.body.appendChild(script);
     };
